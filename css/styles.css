@@ -316,10 +316,16 @@ ul {
 }
 
 .team-item-title {
+  display: flex;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
+  text-align: center;
+}
+
+.team-item-text {
+  text-align: center;
 }
 
 /* PORTFOLIO */
