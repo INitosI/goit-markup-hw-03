@@ -368,6 +368,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
+  border-top: none;
 }
 
 /* FOOTER */
