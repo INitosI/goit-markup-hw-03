@@ -348,6 +348,11 @@ ul {
   height: 420px;
 }
 
+.portfolio-item-info {
+  display: flex;
+  flex-direction: column;
+}
+
 .portfolio-title {
   text-align: center;
   letter-spacing: 0.02em;
