@@ -289,9 +289,12 @@ ul {
   display: flex;
   gap: 24px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .team-item {
+  border-radius: 0px 0px 4px 4px;
   background: var(--white);
   min-width: 264px;
   height: 380px;
