@@ -38,6 +38,10 @@ body {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 .container {
   margin: 0 auto;
   padding-left: 15px;
@@ -111,11 +115,11 @@ ul {
 .header {
   padding-bottom: 24px;
   padding-top: 24px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 
@@ -133,6 +137,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo-color {
@@ -237,7 +242,7 @@ ul {
   border: 0;
   padding: 16px 32px;
   min-width: 169px;
-  height: 60px;
+  height: 56px;
 }
 
 .hero-button:hover,
