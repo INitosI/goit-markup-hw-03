@@ -301,9 +301,10 @@ ul {
 }
 .team-item-info {
   display: flex;
-  margin: 32px 16px;
+  /* margin: 32px 16px; */
   flex-direction: column;
   align-items: center;
+  padding: 32px 0;
 }
 
 .team-title {
